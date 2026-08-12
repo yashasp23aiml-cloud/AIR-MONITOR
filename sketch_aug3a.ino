@@ -1,17 +1,34 @@
+/*
+ * Major Project: ESP32 Air Monitoring & Automatic Control System
+ *
+ * Copyright (c) 2026 
+* Project Team:
+ * Yashas P
+ * Yashas Kaustav
+ * Tarun V
+ * Vishwajeet
+ * All rights reserved.
+ *
+ * This source code is part of a college major project.
+ * Unauthorized copying, modification, or redistribution
+ * of this code is not permitted without permission.
+ */
+
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 #include <DHT.h>
 
+// Your code starts here...
 // ==================================================
 // WIFI
 // ==================================================
 
-const char* WIFI_SSID = "OPPO K13 5G 6E38";
-const char* WIFI_PASSWORD = "vishwajeet";
+const char* WIFI_SSID = "YOUR WIFI NAME";
+const char* WIFI_PASSWORD = "PASSWARD";
 
 const char* SERVER_URL =
-  "http://10.109.33.164:3000/api/sensor-data";
+  "http://YOUR IP:3000/api/sensor-data";
 
 
 // ==================================================
